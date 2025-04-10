@@ -30,9 +30,13 @@ Equipe de Desenvolvimento
 ## Dados do Cliente
 
 Título do Projeto:  PJS Contabilidade
-Cliente: PJS Assessoria & Contábil 
+
+Cliente: PJS Assessoria & Contábil
+
 CNPJ/CPF: 31.751.942/0001-35
+
 Contato: (19) 98153-4216
+
 Email do contato: contato@pjscontabil.com.br
 
 
@@ -116,27 +120,27 @@ As rotas da API devem ser protegidas com autenticação (JWT ou similar), impedi
 
 ## Materiais e Métodos
 
-![Diagrama Modelagem UML](C:\Users\supor\Downloads\PJS_OrcamentoModelagem.drawio.pdf)
+![Diagrama Modelagem UML](imagensProjeto/PJS_OrcamentoModelagem.drawio.pdf)
 
-![Diagrama Modelagem Caso de Uso](C:\Users\supor\Downloads\PSJ_Orcamento_CasoDeUso2.drawio.pdf)
+![Diagrama Modelagem Caso de Uso](imagensProjeto/PSJ_Orcamento_CasoDeUso2.drawio.pdf)
 
 
 
-##Resultados
+## Resultados
 
 <!--
 Protótipo: <Dica: são as telas do software e suas descrições. Em cada uma delas, descreva as ações possíveis do usuário e reações do sistema. Isto pode ser feito através do print das telas do seu sistema. As telas não podem ocupar muito espaço da página, porém também não podem ficar ilegíveis>
 Códigos das principais funcionalidades: <Dica: copy-cole aqui as seções mais relevantes do seu código. Insira comentários sobre cada seção.>
 -->
 
-##Conclusão
+## Conclusão
 
 <!--
 Impacto do sistema: <Dica: como o sistema impactou (alterou positivamente) o processo do cliente>
 Melhorias Futuras: <Dica: elencar, pelo menos, uma melhoria que poderá ser realizada futuramente no sistema.>
 -->
 
-##Homologação do MVP junto ao cliente
+## Homologação do MVP junto ao cliente
 
 
 Após as entregas parciais, realizadas de acordo com os requisitos do sistema  e cronograma, o MVP foi apresentado em uma reunião, realizada entre o time de desenvolvedores e o cliente.
@@ -161,7 +165,7 @@ Lista de presentes na Homologação
 
 Ao final da apresentação, o sistema  foi homologado pelo cliente.
 -->
-##Divulgação
+## Divulgação
 
 Linkedin do Projeto
 <!--
