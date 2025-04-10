@@ -55,38 +55,72 @@ _Kesede Rodrigues Julio_
 
 ## Objetivo
 
-<!--
-<Dica: Qual problema que o cliente enfrenta, o qual será resolvido através de um sistema computadorizado? Por exemplo, “Automatizar o atendimento de balcão para que os pedidos sejam emitidos de forma automática para a cozinha do restaurante.>
--->
+O objetivo deste projeto é desenvolver um sistema baseado em plataforma web que permita ao usuário organizar e estruturar informações de forma mais consistente, prática e ágil. A proposta visa facilitar a elaboração de orçamentos por meio de processos mais automatizados e integrados, utilizando dados previamente cadastrados, otimizando, assim, o tempo e a eficiência das operações realizadas pelo cliente.
 
-##Escopo
+## Escopo
 
-<!--
-<Escopo é o que será implementado no sistema. Coloque aqui os requisitos principais que serão implementados e até que ponto serão implementados, ou seja, quais os limites de implementação. Os requisitos citados aqui devem ser macros, ou seja, 2 ou 3 requisitos principais. Também é bom citar o que não será implementado.>
--->
+Este projeto tem como finalidade a implementação de uma estrutura de back-end voltada à automatização e organização do processo de geração de orçamentos comerciais. O foco principal está na construção da lógica de negócio e na modelagem do banco de dados, não sendo contemplado, nesta etapa, o desenvolvimento da interface de usuário (front-end).
 
-##Backlogs do Produto
+A solução será desenvolvida em Java, utilizando os princípios da programação orientada a objetos, o que proporciona maior modularidade, reutilização de código e manutenção facilitada. Para a criação e gerenciamento da aplicação web, será utilizado o framework Spring Boot, que oferece uma base consolidada para o desenvolvimento de APIs RESTful, além de recursos que favorecem a escalabilidade e a integração entre os componentes do sistema.
 
-<!--
-<Neste capítulo, teremos uma lista expandida do Escopo. Liste aqui os Requisitos levantados junto ao cliente e pela equipe de desenvolvimento. Os requisitos devem ter uma breve explicação do que se trata. Caso já tenha feito isso no Jira, basta copiar para cá.>
--->
+Como mecanismo de persistência, será adotado o MongoDB, banco de dados NoSQL que permite maior flexibilidade na estruturação de documentos, adequando-se eficientemente a contextos que exigem variações e expansões dinâmicas de dados.
 
-##Cronograma
+## Backlogs do Produto
+
+### Requisitos Funcionais (RF)
+
+RF01 – Cadastro de Clientes
+O sistema deve permitir o cadastro e armazenamento de dados básicos e complementares de clientes, incluindo nome, CNPJ/CPF, endereço e informações de contato.
+
+RF02 – Estruturação de Dados por Cliente
+Deve ser possível organizar os dados do cliente em categorias pré-definidas (produtos, serviços, necessidades, etc.) para facilitar a geração de orçamentos personalizados.
+
+RF03 – Geração de Orçamentos
+O sistema deve gerar orçamentos automaticamente com base nos dados cadastrados, permitindo a inclusão dinâmica de itens e condições comerciais.
+
+RF04 – Armazenamento de Orçamentos
+Todos os orçamentos gerados devem ser armazenados no sistema, com possibilidade de edição, histórico de versões e exportação para formatos como PDF.
+
+RF05 – Integração com JasperStudio
+A aplicação deve ser capaz de gerar relatórios customizados em PDF por meio da integração com o JasperStudio, utilizando os dados estruturados no MongoDB.
+
+RF06 – API RESTful para Consumo de Dados
+A aplicação deve disponibilizar uma API REST para que os dados possam ser consumidos ou integrados a outros sistemas futuramente.
+
+### Requisitos Não Funcionais (RNF)
+
+RNF01 – Plataforma Web
+O sistema será exclusivamente acessado por meio de navegadores (web-based), dispensando instalação local.
+
+RNF02 – Backend em Java com Spring Boot
+A aplicação será desenvolvida em Java, utilizando Spring Boot para estruturar o servidor e facilitar a criação de endpoints e regras de negócio.
+
+RNF03 – Banco de Dados MongoDB
+Os dados serão armazenados em um banco NoSQL (MongoDB), devido à sua flexibilidade em lidar com documentos com estrutura variável.
+
+RNF04 – Modularidade do Código
+O sistema será implementado com foco em modularidade e boas práticas de programação orientada a objetos, garantindo manutenção facilitada e reutilização de código.
+
+RNF05 – Desempenho e Escalabilidade
+A estrutura deverá ser projetada para suportar crescimento de volume de dados e múltiplos usuários acessando simultaneamente sem degradação de performance.
+
+RNF06 – Segurança na API
+As rotas da API devem ser protegidas com autenticação (JWT ou similar), impedindo o acesso não autorizado aos dados do sistema.
+
+## Cronograma
 
 <!--
 <Insira aqui uma imagem ou tabela de todo o planejamento do projeto (com atividades e datas). A periodicidade das tarefas será de 2 semanas. O cronograma deve abranger todo o processo de construção do projeto. Isso pode ser feito diretamente neste doc, no excel, canva etc>
 -->
 
 
-##Materiais e Métodos
+## Materiais e Métodos
+
+![Diagrama Modelagem UML](C:\Users\supor\Downloads\PJS_OrcamentoModelagem.drawio.pdf)
+
+![Diagrama Modelagem Caso de Uso](C:\Users\supor\Downloads\PSJ_Orcamento_CasoDeUso2.drawio.pdf)
 
 
-<!--
-Modelagem do sistema: <Dica: a modelagem do seu sistema são diagramas (desenhos) da sua estrutura ou comportamento. A UML (Unified Modelling Language) oferece diversos diagramas para que você possa modelar seu sistema. Escolha, pelo menos, dois modelos e insira aqui. Por exemplo, Modelo de Dados (Diagrama de Classe ou MER), Casos de Uso, Diagrama de Sequência, Diagrama de Atividades etc. Estes modelos são próprios para construção da comunicação, entendimento e implantação dos requisitos do sistema. Você pode usar ferramentas, como: LucidChart, Draw.io etc. Veja exemplos em Diagramas UML: exemplo e modelos | Lucidchart Blog>. Recomendo os diagramas: Caso de Uso: mostra as relações entre Atores e Processos, Diagrama de Classes: mostra as relações entre as classes (quando houver) do sistema e o MER (Modelo Entidade-Relacionamento): mostra as relações entre os dados das tabelas de BD. Mas cada sistema pede diagramas diferentes. Portanto, aplique conforme necessidade;
-Tecnologias utilizadas: <Dica: escreva quais linguagens foram utilizadas, quais  frameworks, bibliotecas e API’s consumidas/criadas. Quais ferramentas foram usadas para desenho dos modelos. Para cada um deles, faça uma pequena descrição de uso.>
-
-Arquitetura do sistema: <Dica: insira aqui uma imagem contendo a arquitetura do sistema e o fluxo das informações. Se a arquitetura for muito simples, detalhe o fluxo dos processos. (veja um exemplo na figura 1 (pag. 79) deste artigo: Monitor de WhatsApp: Um Sistema para Checagem de Fatos no Combate à Desinformação>. Este diagrama será muito bom para usar no banner da FENETEC.
--->
 
 ##Resultados
 
