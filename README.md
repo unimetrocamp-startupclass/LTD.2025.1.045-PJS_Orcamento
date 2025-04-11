@@ -120,9 +120,9 @@ As rotas da API devem ser protegidas com autenticação (JWT ou similar), impedi
 
 ## Materiais e Métodos
 
-![Diagrama Modelagem UML](imagensProjeto/PJS_OrcamentoModelagem.drawio.pdf)
+[Diagrama Modelagem UML](imagensProjeto/PJS_OrcamentoModelagem.drawio.pdf)
 
-![Diagrama Modelagem Caso de Uso](imagensProjeto/PSJ_Orcamento_CasoDeUso2.drawio.pdf)
+[Diagrama Modelagem Caso de Uso](imagensProjeto/PSJ_Orcamento_CasoDeUso2.drawio.pdf)
 
 
 
