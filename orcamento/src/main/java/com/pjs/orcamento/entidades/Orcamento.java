@@ -1,3 +1,5 @@
+package com.pjs.orcamento.entidades; 
+
 import java.sql.Date;
 
 public class Orcamento {
