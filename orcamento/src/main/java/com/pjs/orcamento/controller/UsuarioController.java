@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.pjs.orcamento.entidades.Cliente;
-import com.pjs.orcamento.entidades.Usuario;
+import com.pjs.orcamento.entidades.usuario.Cliente;
+import com.pjs.orcamento.entidades.usuario.Usuario;
 import com.pjs.orcamento.service.ClienteService;
 import com.pjs.orcamento.service.UsuarioService;
 

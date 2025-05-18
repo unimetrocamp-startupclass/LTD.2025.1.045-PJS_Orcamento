@@ -1,4 +1,4 @@
-package com.pjs.orcamento.entidades;
+package com.pjs.orcamento.entidades.contato;
 
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
@@ -10,22 +10,19 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Document(collection = "usuario")
+@Document(collection = "contato")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Usuario 
+public class Contato 
 {
 	@Id
 	@JsonProperty("_id")
-	private ObjectId id;
+	private ObjectId idContato; 
 	
-	@JsonProperty("nome")
-    private String nome;
-
-	@JsonProperty("telefone")
-    private String telefone;
-
-	@JsonProperty("senha")
-    private String senha;
+	@JsonProperty("tipo")
+	private int tipo;
+	
+	@JsonProperty("contato")
+	private String contato;
 }

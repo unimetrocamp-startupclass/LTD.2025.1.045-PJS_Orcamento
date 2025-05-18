@@ -1,6 +1,11 @@
-package com.pjs.orcamento.entidades;
+package com.pjs.orcamento.entidades.usuario;
+
+import java.util.List;
 
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.mapping.DocumentReference;
+
+import com.pjs.orcamento.entidades.orcamento.OrcamentoCliente;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -12,8 +17,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Cliente extends Usuario 
 {
-	public void pedirOrcamento(){
-        System.out.println("O cliente está pedindo um orçamento");
-    }
-    
+	@DocumentReference
+	private List<OrcamentoCliente> orcamentosClientes;
 }
