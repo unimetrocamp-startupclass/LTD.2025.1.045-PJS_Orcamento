@@ -31,4 +31,56 @@ public class Orcamento
 	
 	@DocumentReference
 	private List<OrcamentoCliente> orcamentosClientes;
+
+	
+	public Orcamento(double valor, String descricao) 
+	{
+		this.valor = valor;
+		this.descricao = descricao;
+	}
+
+
+	public ObjectId getIdOrcamento() {
+		return idOrcamento;
+	}
+
+
+	public void setIdOrcamento(ObjectId idOrcamento) {
+		this.idOrcamento = idOrcamento;
+	}
+
+
+	public double getValor() {
+		return valor;
+	}
+
+
+	public void setValor(double valor) {
+		this.valor = valor;
+	}
+
+
+	public String getDescricao() {
+		return descricao;
+	}
+
+
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+
+
+	public List<OrcamentoCliente> getOrcamentosClientes() {
+		return orcamentosClientes;
+	}
+
+
+	public void setOrcamentosClientes(List<OrcamentoCliente> orcamentosClientes) {
+		this.orcamentosClientes = orcamentosClientes;
+	}
+
+	
+	
 }
+
+

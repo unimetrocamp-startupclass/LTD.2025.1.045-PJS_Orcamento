@@ -19,4 +19,14 @@ public class Cliente extends Usuario
 {
 	@DocumentReference
 	private List<OrcamentoCliente> orcamentosClientes;
+
+	public List<OrcamentoCliente> getOrcamentosClientes() {
+		return orcamentosClientes;
+	}
+
+	public void setOrcamentosClientes(List<OrcamentoCliente> orcamentosClientes) {
+		this.orcamentosClientes = orcamentosClientes;
+	}
+	
+	
 }

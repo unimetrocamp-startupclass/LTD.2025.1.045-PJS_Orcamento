@@ -1,6 +1,7 @@
 package com.pjs.orcamento.entidades.orcamento;
 
-import java.sql.Date;
+import java.util.Date;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.bson.types.ObjectId;
@@ -28,6 +29,17 @@ public class OrcamentoCliente
 	@JsonProperty("status")
 	private int status; 
 	
+	public OrcamentoCliente(int status, Date date, double valorTotal, List<Orcamento> orcamentos, Cliente cliente) 
+	{
+		this.status = status;
+		this.data = date;
+		this.valorTotal = valorTotal;
+		this.cliente = cliente;
+
+		if(this.orcamentos == null) { this.orcamentos = new ArrayList<Orcamento>(); }
+		this.orcamentos.addAll(orcamentos);
+	}
+
 	@JsonProperty("data")
 	private Date data;
 	
