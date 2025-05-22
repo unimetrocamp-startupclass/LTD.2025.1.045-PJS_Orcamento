@@ -144,38 +144,69 @@ Melhorias Futuras: <Dica: elencar, pelo menos, uma melhoria que poderá ser real
 
 
 Após as entregas parciais, realizadas de acordo com os requisitos do sistema  e cronograma, o MVP foi apresentado em uma reunião, realizada entre o time de desenvolvedores e o cliente.
-<!--
-<Dica: inserir uma foto da homologação em cada linha do quadro abaixo. Serão 4 fotos (tiradas no momento da homologação) e, na linha debaixo, uma legenda para cada uma delas. A homologação, preferencialmente, deve ser presencial. Se não for viável, pode ser feita por videoconferência com prints da tela.>
 
-<foto 1: foto do time e cliente com o primeiro slide de fundo>
-<foto 2: foto de um integrante apresentando o MVP.>
-Da esquerda para direita: <legenda 1: descreva quem está na foto>
-<legenda 2: coloque o nome de quem está apresentando>
-<foto 3: foto dos participantes assistindo a homologação>
-<foto 4: foto do plano geral do local>
-Participantes da homologação assistindo a apresentação
-Participantes da homologação
-
-
-Segue abaixo a lista de presentes na homologação do MVP.
+![image](https://github.com/user-attachments/assets/2b683a01-8e08-4833-ac8b-df8b05393974)
 
 Lista de presentes na Homologação
-<Cole aqui a foto da lista de presentes na homologação.>
 
+| Nome                                      | Matrícula     |
+|-------------------------------------------|---------------|
+| Adriano de Sousa Ramos                    | 202302381219  |
+| Aline Silveira Cordeiro                   | 202302376533  |
+| André Lucas Martins Ezequie               | 202402810201  |
+| Beatriz Colombo de Oliveira               | 202303878451  |
+| Bianca Pessin Avelino                     | 202302377076  |
+| Breno Zachello Oliveira                   | 202202455601  |
+| Caick Bertin Viana                        | 202302773664  |
+| Daniel Servino da Rocha                   | 202302381464  |
+| Derek Bergesch                            | 202303321279  |
+| Douglas Carlos de Castro                  | 202202771309  |
+| Eduardo Alejandro Meli Aracena Bello      | 202303413572  |
+| Emilly Araújo Marques                     | 202303801841  |
+| Fabrício Amorim dos Santos                | 202302857957  |
+| Felipe Orpheu Santoro Vasconcelos         | 202202389706  |
+| Fernando Ferreira da Silva                | 202208700195  |
+| Fernando Rodrigues de Sousa               |               |
+| Gabriel Cangiani                          | 202304302723  |
+| Gabriel de Oliveira Lima                  | 202302381261  |
+| Gabriel Juliani Arroyo                    | 202302784471  |
+| Guilherme Afonso da Silva Ferrari         | 202302468659  |
+| Guilherme Martins Spiandorin              | 202302381359  |
+| Heric Prestelo Pedro                      | 202302382479  |
+| Jennifer de Oliveira                      | 202103014411  |
+| João Alexandre Nunes Belchior             | 202303467079  |
+| João Henrique Augait do Nascimento        | 202202782671  |
+| João Pedro Dumbra Sturla                  | 202302424856  |
+| João Victor Tourinho dos Santos           | 202308428489  |
+| Leonardo Hideki Kuriki                    | 202302381431  |
+| Lucas Ferreira Ascioni                    | 202108617806  |
+| Lucas Guilherme Silva                     | 202303886241  |
+| Lucas Guthierrez Oliver                   | 202208700292  |
+| Lucas Ryan Rodrigues Barbosa              | 202303181493  |
+| Lucas Silva do Carmo                      | 202202834181  |
+| Lucas de Souza Pereira                    | 202303152035  |
+| Luiz Gustavo de Lara Freschi              | 202303112581  |
+| Marcos Vinicius Cardoso Correa            | 202204018292  |
+| Matheus Azevedo Rosa                      | 202204156326  |
+| Matheus Ramos Marcolino                   | 202302376819  |
+| Michael de Souza da Silva                 | 202308396382  |
+| Natalia Policeno                          | 202304086826  |
+| Paulo Henrique Angelino Braga             | 202302380026  |
+| Pedro Daniel Marques                      | 202302892523  |
+| Pedro Henrique da Silva dos Santos        | 202403070049  |
+| Sabrina Ribeiro Guimarães dos Santos      | 202203181076  |
+| Samuel Bernardes                          | 202303459696  |
+| Thiago Moscatini Carvalho                 | 202302382428  |
+| Tonislau Domingos Quissanga               | 202208700519  |
+| Victor Hugo Brito Marião                  | 202304086826  |
+| Vinícius Teixeira Tamasaukas              | 202302381642  |
+| Wellington José de Lima                   | 202302380921  |
 
-Ao final da apresentação, o sistema  foi homologado pelo cliente.
--->
 ## Divulgação
 
-Linkedin do Projeto
-<!--
-<A página do Linkedin do projeto deve ter o logo do LTD, o titulo do projeto, um breve resumo, o nome dos integrantes e o nome do professor-orientador. Insira também o link do repositório do projeto no GitHub. Neste perfil, deve ser postado a cada Sprint, os artefatos produzidos (diagramas, videos explicativos de códigos, artigo sobre determinado tema vinculado ao desenvolvimento do projeto). Promova engajamento e networking conectando-se a profissionais da área, compartilhamentos, comentários etc. 
-Insira o linnk deste perfil com o seu perfil pessoal do Linkedin.
+Apresentação do Projeto
 
-<print da tela de perfil do Linkedin>
-<link da pág do Linkedin>
-
--->
+[Slides da Apresentação][(https://www.exemplo.com](https://www.canva.com/design/DAGnpUcQg70/U-ggAkNMhnzFkoESZlNPTA/edit?utm_content=DAGnpUcQg70&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 <!-- 
