@@ -206,7 +206,7 @@ Lista de presentes na Homologação
 
 Apresentação do Projeto
 
-[Slides da Apresentação][(https://www.exemplo.com](https://www.canva.com/design/DAGnpUcQg70/U-ggAkNMhnzFkoESZlNPTA/edit?utm_content=DAGnpUcQg70&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+[Slides da Apresentação](https://www.canva.com/design/DAGnpUcQg70/U-ggAkNMhnzFkoESZlNPTA/edit?utm_content=DAGnpUcQg70&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 <!-- 
