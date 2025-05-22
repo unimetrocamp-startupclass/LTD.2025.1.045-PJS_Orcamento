@@ -145,7 +145,7 @@ Melhorias Futuras: <Dica: elencar, pelo menos, uma melhoria que poderá ser real
 
 Após as entregas parciais, realizadas de acordo com os requisitos do sistema  e cronograma, o MVP foi apresentado em uma reunião, realizada entre o time de desenvolvedores e o cliente.
 
-![image](https://github.com/user-attachments/assets/2b683a01-8e08-4833-ac8b-df8b05393974)
+![image](imagensProjeto/PJS_Apreentacao_1.jpg)
 
 Lista de presentes na Homologação
 
