@@ -113,9 +113,16 @@ As rotas da API devem ser protegidas com autenticação (JWT ou similar), impedi
 
 ## Cronograma
 
-<!--
-<Insira aqui uma imagem ou tabela de todo o planejamento do projeto (com atividades e datas). A periodicidade das tarefas será de 2 semanas. O cronograma deve abranger todo o processo de construção do projeto. Isso pode ser feito diretamente neste doc, no excel, canva etc>
--->
+  Sprint 1 - reunião inicial
+- Levantamento dos requisitos com o cliente
+- Criação da equipe no jira para controle de tempo
+- Criação da equipe no GitHub para manejo do código
+- Planejamento inicial (Definição das ferremantas à serem usadas)
+
+ Sprint 2 - Estrutura Inicial
+- Criação do UML
+- Criação do Banco de Dados
+- Criação das Classes
 
 
 ## Materiais e Métodos
