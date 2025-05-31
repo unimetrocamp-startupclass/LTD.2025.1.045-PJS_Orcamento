@@ -26,20 +26,20 @@ public class OrcamentoController
 	@Autowired
 	OrcamentoService orcamentoService; 
 
-	@Autowired
-	OrcamentoClienteService orcamentoClienteService;
-	
-	@GetMapping
+	@GetMapping("/buscarOrcamentos")
 	public ResponseEntity<List<Orcamento>> buscarOrcamentos()
 	{
 		return new ResponseEntity<List<Orcamento>>(orcamentoService.buscaTodosOrcamentos(), HttpStatus.OK); 
 	} 
 	
-	@PostMapping("criarOrcamento")
+	@PostMapping("/criarOrcamento")
 	public ResponseEntity<Orcamento> criarOrcamento(@RequestBody Map<String, String> orcamentoJson)
 	{
 		return new ResponseEntity<Orcamento>(orcamentoService.criarOrcamneto(Double.parseDouble(orcamentoJson.get("valor")), orcamentoJson.get("descricao")), HttpStatus.CREATED);
 	}
+	
+	@Autowired
+	OrcamentoClienteService orcamentoClienteService;
 	
 	@PostMapping("/criarOrcamentoCliente")
 	public ResponseEntity<OrcamentoCliente> criarOrcamentoCliente(@RequestBody OrcamentoClienteDTO dto)

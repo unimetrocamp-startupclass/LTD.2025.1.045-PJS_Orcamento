@@ -29,10 +29,10 @@ public class OrcamentoCliente
 	@JsonProperty("status")
 	private int status; 
 	
-	public OrcamentoCliente(int status, Date date, double valorTotal, List<Orcamento> orcamentos, Cliente cliente) 
+	public OrcamentoCliente(int status, Date data, double valorTotal, List<Orcamento> orcamentos, Cliente cliente) 
 	{
 		this.status = status;
-		this.data = date;
+		this.data = data;
 		this.valorTotal = valorTotal;
 		this.cliente = cliente;
 
