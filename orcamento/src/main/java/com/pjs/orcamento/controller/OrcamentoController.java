@@ -46,4 +46,10 @@ public class OrcamentoController
 	{
 		return new ResponseEntity<OrcamentoCliente>(orcamentoClienteService.criarOrcamentoCliente(dto.getIdsOrcamentos(), dto.getIdCliente()), HttpStatus.CREATED);
 	}
+	
+	@GetMapping("/buscarOrcamentosClientes")
+	public ResponseEntity<List<OrcamentoCliente>> buscarOrcamentosClientes()
+	{
+		return new ResponseEntity<List<OrcamentoCliente>>(orcamentoClienteService.buscarTodosOrcamentosClientes(), HttpStatus.OK);
+	}
 }

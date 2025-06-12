@@ -35,6 +35,11 @@ public class OrcamentoClienteService
 	@Autowired
 	private MongoTemplate mongoTemplate;
 
+	public List<OrcamentoCliente> buscarTodosOrcamentosClientes()
+	{
+		return orcamentClienteRepository.findAll();
+	}
+	
 	public OrcamentoCliente criarOrcamentoCliente(List<String> idsOrcamentos, String idCliente) 
 	{
 		List<ObjectId> objectIdsOrcamentos = idsOrcamentos.stream().map(ObjectId::new).collect(Collectors.toList());

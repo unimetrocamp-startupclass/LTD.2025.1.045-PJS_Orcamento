@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.DocumentReference;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.pjs.orcamento.entidades.orcamento.OrcamentoCliente;
 
 import lombok.AllArgsConstructor;
@@ -17,7 +18,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Cliente extends Usuario 
 {
-	@DocumentReference
+	@DocumentReference @JsonIgnore
 	private List<OrcamentoCliente> orcamentosClientes;
 
 	public List<OrcamentoCliente> getOrcamentosClientes() {
